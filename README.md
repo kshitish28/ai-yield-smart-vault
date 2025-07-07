@@ -46,8 +46,8 @@ ai_yield_smart_vault/
 └── README.md                   # Project documentation
 
 ```
-
-#🛠️ Tech Stack
+```bash```
+🛠️ Tech Stack
 Layer	Tech
 Blockchain	Solidity, EVM-compatible (Primordial Testnet)
 AI Engine	Python, OpenAI API (or simulated logic)

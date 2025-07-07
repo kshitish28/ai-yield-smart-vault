@@ -45,6 +45,7 @@ ai_yield_smart_vault/
 │   └── wallet.js               # Gasless wallet connection logic
 └── README.md                   # Project documentation
 
+```
 
 🛠️ Tech Stack
 Layer	Tech

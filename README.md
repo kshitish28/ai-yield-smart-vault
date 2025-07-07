@@ -44,3 +44,67 @@ ai_yield_smart_vault/
 ├── wallet_integration/
 │   └── wallet.js               # Gasless wallet connection logic
 └── README.md                   # Project documentation
+
+
+🛠️ Tech Stack
+Layer	Tech
+Blockchain	Solidity, EVM-compatible (Primordial Testnet)
+AI Engine	Python, OpenAI API (or simulated logic)
+Frontend	React.js, Tailwind CSS
+Wallet	Biconomy / Safe (ERC-4337 AA)
+Hosting	Vercel / Railway (for frontend/backend)
+
+🧪 How to Run the Project
+1. Smart Contracts
+bash
+Copy
+Edit
+# Navigate to contracts folder and deploy
+cd contracts
+# Use Remix or Hardhat to compile and deploy AIVault.sol
+2. AI Router
+bash
+Copy
+Edit
+cd ai_engine
+python ai_router.py
+3. React Frontend
+bash
+Copy
+Edit
+cd frontend
+npm install
+npm start
+4. NFT Access Contract
+bash
+Copy
+Edit
+# Navigate to analytics_nft and deploy VaultAccessNFT.sol
+# Use Remix or Hardhat again
+5. Wallet Integration
+Use the wallet.js to enable MetaMask or smart wallet connection from your frontend.
+
+🧠 Example Use Cases
+🔄 Hands-Free Yield Farming for users
+
+🏦 Custom Vaults for DAOs and protocol treasuries
+
+🎟️ NFT Access Tiers for premium yield vaults
+
+🧑‍🏫 AI Assistants to help users understand risks and yields
+
+📌 Future Roadmap
+ Deploy on mainnet (Polygon, Base, etc.)
+
+ Cross-chain strategy support
+
+ Decentralized governance via DAO
+
+ Open-source AI routing engine
+
+ NFT reward tiers with marketplace integration
+
+🧑‍💻 Authors
+👨‍💻 Kshitish Kumar Moharana
+
+🧑‍🚀 Built with help from OpenAI & Hackathon inspiration

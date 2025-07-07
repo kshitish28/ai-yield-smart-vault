@@ -46,7 +46,7 @@ ai_yield_smart_vault/
 └── README.md                   # Project documentation
 
 ```
-```bash```
+
 🛠️ Tech Stack
 Layer	Tech
 Blockchain	Solidity, EVM-compatible (Primordial Testnet)
